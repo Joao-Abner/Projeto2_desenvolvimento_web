@@ -1,0 +1,198 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background: #f8f6f7;
+}
+
+.nome-site {
+    white-space: normal;
+}
+
+.nome-site-numb {
+    font-size: 35px;
+}
+
+.n1 {
+    color: #f35926;
+}
+
+.n2 {
+    color: #fcb929;
+}
+
+.n3 {
+    color:  #00b049;
+}
+
+.n1, .n2 {
+  letter-spacing: -4px;
+}
+
+nav {
+    font-weight: bold;
+    padding: 5px 0px;
+    font-family: sans-serif;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    max-width: 1000px;
+    display: flex;
+    gap: 50px;
+    font-weight: normal;   
+}
+
+.navbar-grupo {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+}
+
+header {
+    background-image: url(../img/barcos.webp);
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 20px;
+    margin-bottom: 35px;
+    margin-top: 45px;
+}
+
+form {
+    background-color: white;
+    max-width: 1000px;
+    margin: 30px auto 130px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-grupo {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 7px;
+    justify-content: center;
+
+}
+
+.titulo-form{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.botao-form {
+    background-color: #ea3d35;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.campo-form {
+  padding: 7px 10px;
+}
+
+.campo-form::placeholder {
+    font-size: 16px;
+}
+
+article{
+    max-width: 1000px;
+    margin: 0px auto 50px auto;
+  }
+  
+  article h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .viagens-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+  }
+  
+  .viagem {
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .viagem-nome {
+    display: block;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.852);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .viagem-valor {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.852);
+  }
+
+  .botao-ver-mais {
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 35px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.446);
+    cursor: pointer;
+  }
+  
+  .viagem-1 {
+    background-image: url(../img/rio.webp);
+  }
+  
+  .viagem-2 {
+    background-image: url(../img/bonito.webp);
+  }
+  
+  .viagem-3 {
+    background-image: url(../img/sao-paulo.webp);
+  }
+  
+  .viagem-4 {
+    background-image: url(../img/foz.webp);
+  }
+  
+  .viagem-5 {
+    background-image: url(../img/maceio.webp);
+  }
+  
+  .viagem-6 {
+    background-image: url(../img/salvador.webp);
+  }
+  
+  .viagem-7 {
+    background-image: url(../img/fortaleza.webp);
+  }
+  
+  .viagem-8 {
+    background-image: url(../img/belo-horizonte.webp);
+  }

@@ -2,28 +2,91 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>123 Viagens</title>
+    <meta name="referrer" content="never">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Viagens</title>
 </head>
 <body>
-    <header>
-        
-    </header>
-    <div class="site-largura">
-    <nav class="menu-topo">
-        <a href="">123viagens</a>
-        <a href="">Login</a>
-        <a href="">Sobre</a>
-        <a href="">Ajuda</a>
+    <nav>
+        <div class="navbar-grupo">
+            <div class="nome-site">
+                <span class="nome-site-numb n1">1</span>
+                <span class="nome-site-numb n2">2</span>
+                <span class="nome-site-numb n3">3</span>viagens
+            </div>
+            <ul>
+                <li>
+                    <a href="" target="_self">Login</a>
+                </li>
+                <li>
+                    <a href="" target="_self">Sobre</a>
+                </li>
+                <li>
+                    <a href="" target="_self">Ajuda</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <form action="">
-        <h1>Passagens Aéreas</h1>
-    </form>
+    <header>
+        <form>
+            <h1 class="titulo-form">Passagens Aéreas</h1>
+            <div class="form-grupo">
+                <input type="text" class="campo-form" placeholder="Origem">
+                <input type="text" class="campo-form" placeholder="Destino">
+                <input type="text" class="campo-form" placeholder="Ida __/__/____">
+                <input type="text" class="campo-form" placeholder="Volta __/__/____">
+                <button class="botao-form" type="button">buscar voos</button>
+            </div>
+        </form>
+    </header>
     <main>
-        <h2>Voos com Desconto</h2>
+        <article>
+            <h2>Voos com desconto</h2>
+            <div class="viagens-container">
+              <div class="viagem viagem-1">
+                <span class="viagem-nome">Rio de Janeiro</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-2">
+                <span class="viagem-nome">Bonito</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-3">
+                <span class="viagem-nome">São Paulo</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-4">
+                <span class="viagem-nome">Foz do Iguaçu</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-5">
+                <span class="viagem-nome">Maceió</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-6">
+                <span class="viagem-nome">Salvador</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-7">
+                <span class="viagem-nome">Fortaleza</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+              <div class="viagem viagem-8">
+                <span class="viagem-nome">Belo Horizonte</span>
+                <span class="viagem-valor">R$ 150</span>
+                <button class="botao-ver-mais">ver mais</button>
+              </div>
+            </div>
+          </article>
     </main>
-
-    </div>
 </body>
 </html>
